@@ -6,4 +6,7 @@ import { PreInscriptionService } from './pre-inscription.service';
   controllers: [PreInscriptionController],
   providers: [PreInscriptionService]
 })
-export class PreInscriptionModule {}
+export class PreInscriptionModule {
+  name : String
+  email :  String
+}
