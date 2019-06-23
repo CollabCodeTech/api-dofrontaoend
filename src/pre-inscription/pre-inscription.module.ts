@@ -7,6 +7,6 @@ import { PreInscriptionService } from './pre-inscription.service';
   providers: [PreInscriptionService]
 })
 export class PreInscriptionModule {
-  name : String
-  email :  String
+  public name : String
+  public email :  String
 }
