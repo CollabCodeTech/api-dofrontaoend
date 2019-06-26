@@ -15,7 +15,6 @@ describe('PreInscription Controller', () => {
   });
 
   it('should be defined', () => {
-    console.log(controller);
     expect(controller).toBeDefined();
   });
 });
